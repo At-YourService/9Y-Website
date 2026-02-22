@@ -64,4 +64,22 @@ document.addEventListener('DOMContentLoaded', () => {
             el.innerText = email;
         }
     });
+
+    // Cookie Banner Logic
+    const cookieBanner = document.getElementById('cookie-banner');
+    const acceptBtn = document.getElementById('accept-cookies');
+
+    if (cookieBanner && acceptBtn) {
+        // Show banner after a short delay if not yet accepted
+        if (!localStorage.getItem('cookieConsent')) {
+            setTimeout(() => {
+                cookieBanner.classList.remove('translate-y-full');
+            }, 1000);
+        }
+
+        acceptBtn.addEventListener('click', () => {
+            localStorage.setItem('cookieConsent', 'true');
+            cookieBanner.classList.add('translate-y-full');
+        });
+    }
 });
