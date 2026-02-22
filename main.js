@@ -7,11 +7,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Navbar scroll effect
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
-            navbar.classList.add('glass', 'shadow-lg');
+            navbar.classList.add('shadow-lg');
+            navbar.classList.remove('shadow-sm');
             navbar.classList.remove('py-4');
             navbar.classList.add('py-2');
         } else {
-            navbar.classList.remove('glass', 'shadow-lg');
+            navbar.classList.remove('shadow-lg');
+            navbar.classList.add('shadow-sm');
             navbar.classList.add('py-4');
             navbar.classList.remove('py-2');
         }
@@ -43,9 +45,23 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
 
-    // Apply to elements tagged for animation
-    document.querySelectorAll('section > div').forEach(el => {
-        // We can add classes here if we want to animate them
-        // For now, let's just keep it simple
+    // Email obfuscation
+    const emailElements = document.querySelectorAll('[data-email-user]');
+    emailElements.forEach(el => {
+        const user = el.getAttribute('data-email-user');
+        const domain = el.getAttribute('data-email-domain');
+        const subject = el.getAttribute('data-email-subject');
+        const email = `${user}@${domain}`;
+
+        if (el.tagName === 'A') {
+            let href = `mailto:${email}`;
+            if (subject) href += `?subject=${encodeURIComponent(subject)}`;
+            el.setAttribute('href', href);
+        }
+
+        // If the element is empty or contains placeholders, fill it with the real address
+        if (el.innerText.trim() === '' || el.innerText.includes('[at]')) {
+            el.innerText = email;
+        }
     });
 });
