@@ -1,0 +1,26 @@
+[
+    {
+        "id": "22_02_2026_architecting_the_future",
+        "title": "Architecting the Future of Organizations",
+        "date": "2026-02-22",
+        "category": "Transformation",
+        "excerpt": "Explore our latest methodologies for co-designing organizations that are built for the future.",
+        "file": "22_02_2026_architecting_the_future.md"
+    },
+    {
+        "id": "15_02_2026_pragmatic_ai",
+        "title": "Pragmatic AI: From Vision to Execution",
+        "date": "2026-02-15",
+        "category": "AI & Data",
+        "excerpt": "How our pragmatic approach helps businesses implement AI solutions that drive real financial viability.",
+        "file": "15_02_2026_pragmatic_ai.md"
+    },
+    {
+        "id": "01_02_2026_sustainable_growth",
+        "title": "Designing for Sustainable Growth",
+        "date": "2026-02-01",
+        "category": "Methodology",
+        "excerpt": "Sustainability and feasibility as the core pillars of modern business architecture.",
+        "file": "01_02_2026_sustainable_growth.md"
+    }
+]
