@@ -1,12 +1,12 @@
-# Business Transformation Analyst
+# Business Architect
 
-![Transformation Analyst](https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=2426)
+![Business Architect](https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=2426)
 
-We're looking for a Business Transformation Analyst to help our clients navigate the complexities of digital evolution.
+As a Business Architect you will define solutions between “the business” and IT: 
+- Help the organisations in shaping the  IT and business strategy.
+- Assist in digital roadmaps and digital transformation programs.
+- You will draft up the “ideal” solution which will take into account the IT strategy and the requirements and priorities of the business.
 
-## Why 9Yards?
-
-We don't just provide consulting; we co-design the future with our clients. You'll be at the heart of initiatives that redefine how organizations operate in a digital-first world.
 
 ### Key Responsibilities:
 
@@ -17,9 +17,23 @@ We don't just provide consulting; we co-design the future with our clients. You'
 
 ### Who You Are:
 
-- A curious analyst with a knack for systems thinking.
-- Someone who can translate between "business talk" and "tech talk."
-- Enthusiastic about organizational design and agile methodologies.
-- Experienced in data-driven decision making.
+- You have a strong experience as a functional or business analyst, business or enterprise architectures.
+- You have experience as a consultant or worked in different environments.
+- You have experience in ERP, Cloud concepts, IoT, Data platforms,..
+- You have experience in process design, mapping business capabilities, creating application portfolio's,...
+- You have good knowledge of UML, BPM, Agile, Prince2, Archimate, Togaf, Zachman, LeanIX, etc.
+- You derive power from changing and challenging environments.
+- Ambition and personal growth are your keywords.
+- You are fluent in English and Dutch, French is a strong plus.
+- What can we offer you?
+- Help us architect the sustainable organizations of tomorrow.
 
-Help us architect the sustainable organizations of tomorrow.
+
+​
+### What do we provide:
+​- We provide cross-industry projects with a technology flavor.
+- You will be guided by a “personal coach” and we will offer you a personal growth plan.
+- You can spar with colleagues and your coach to discuss difficult projects.
+- We will provide the necessary training, courses and certifications tailored to your personal interests.
+- 9Yards-team-spirit: recurring team & knowledge sharing events, yearly teambuilding weekend, afterwork drinks, etc.
+- Competitive salary package including a car and the usual fringe benefits.
