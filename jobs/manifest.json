@@ -1,0 +1,26 @@
+[
+    {
+        "id": "23_02_2026_senior_architect",
+        "title": "Senior Solutions Architect",
+        "date": "2026-02-23",
+        "category": "Architecture",
+        "excerpt": "We are looking for a Senior Solutions Architect to join our team and help co-design the future of digital organizations.",
+        "file": "23_02_2026_senior_architect.md"
+    },
+    {
+        "id": "20_02_2026_ai_engineer",
+        "title": "AI Execution Engineer",
+        "date": "2026-02-20",
+        "category": "AI & Data",
+        "excerpt": "Join our pragmatic AI team to turn vision into executable, value-driving realities for our clients.",
+        "file": "20_02_2026_ai_engineer.md"
+    },
+    {
+        "id": "18_02_2026_business_analyst",
+        "title": "Business Transformation Analyst",
+        "date": "2026-02-18",
+        "category": "Transformation",
+        "excerpt": "Help us bridge the gap between business strategy and operational feasibility in complex digital transitions.",
+        "file": "18_02_2026_business_analyst.md"
+    }
+]
