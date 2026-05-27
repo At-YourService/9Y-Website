@@ -1,26 +1,10 @@
 [
     {
-        "id": "22_02_2026_architecting_the_future",
-        "title": "Architecting the Future of Organizations",
-        "date": "2026-02-22",
-        "category": "Transformation",
-        "excerpt": "Explore our latest methodologies for co-designing organizations that are built for the future.",
-        "file": "22_02_2026_architecting_the_future.md"
-    },
-    {
-        "id": "15_02_2026_pragmatic_ai",
-        "title": "Pragmatic AI: From Vision to Execution",
-        "date": "2026-02-15",
+        "id": "17_06_2025_freshworks_refresh_europe_2025",
+        "title": "Freshworks Refresh Europe 2025",
+        "date": "2025-06-17",
         "category": "AI & Data",
-        "excerpt": "How our pragmatic approach helps businesses implement AI solutions that drive real financial viability.",
-        "file": "15_02_2026_pragmatic_ai.md"
-    },
-    {
-        "id": "01_02_2026_sustainable_growth",
-        "title": "Designing for Sustainable Growth",
-        "date": "2026-02-01",
-        "category": "Methodology",
-        "excerpt": "Sustainability and feasibility as the core pillars of modern business architecture.",
-        "file": "01_02_2026_sustainable_growth.md"
+        "excerpt": "Op het Refresh 2025-event in het Emirates Stadium kregen we een helder beeld van waar Freshworks naartoe wil — en hoe agentic AI de service management-wereld fundamenteel verandert.",
+        "file": "17_06_2025_freshworks_refresh_europe_2025.md"
     }
 ]
