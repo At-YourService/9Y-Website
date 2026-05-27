@@ -1,5 +1,22 @@
 [
-    
+    {
+        "id": "22_05_2026_ai_strategie_roadmap",
+        "title": "Hoe bouw je een AI-strategie en roadmap?",
+        "date": "2026-05-22",
+        "category": "Insights",
+        "excerpt": "Een AI-strategie is meer dan een plan — het is de basis voor echte waardecreatie. Ontdek hoe je in drie stappen een sterke AI-roadmap opbouwt en welke succesfactoren het verschil maken.",
+        "image": "news/images/ai_strategie_roadmap.png",
+        "file": "22_05_2026_ai_strategie_roadmap.md"
+    },
+    {
+        "id": "09_04_2026_work_is_broken_amsterdam",
+        "title": "Work Is Broken. Unlocking Human Agency — Amsterdam",
+        "date": "2026-04-09",
+        "category": "Insights",
+        "excerpt": "Als officieel DevRev-partner namen we deel aan een bijzonder evenement in Amsterdam — een middag vol eerlijke gesprekken over AI, architectuur en het heroveren van menselijk leiderschap.",
+        "image": "news/images/work_is_broken_amsterdam.jpg",
+        "file": "09_04_2026_work_is_broken_amsterdam.md"
+    },
     {
         "id": "17_06_2025_freshworks_refresh_europe_2025",
         "title": "Freshworks Refresh Europe 2025",
@@ -18,7 +35,7 @@
         "image": "news/images/news_01.jpg",
         "file": "25_07_2024_summer_event_padel_barbecue.md"
     },
-	{
+    {
         "id": "04_03_2024_technovate_2024_ai_and_beyond",
         "title": "Technovate 2024: AI and Beyond",
         "date": "2024-03-04",
