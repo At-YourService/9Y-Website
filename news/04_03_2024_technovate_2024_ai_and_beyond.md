@@ -36,10 +36,9 @@ Technovate 2024 was daarmee het startschot van een diepgaande discussie over de 
 
 ---
 
-*Benieuwd hoe Nine Yards jouw organisatie kan helpen bij het implementeren van AI? [Neem contact op](https://9yards.be/#contact) — we horen graag van je!*
+*Benieuwd hoe Nine Yards jouw organisatie kan helpen bij het implementeren van AI? [Neem contact op](https://www.9yards.be/#contact) — we horen graag van je!*
 
 <!--
 seo_title: Technovate 2024: AI and Beyond — 9Yards
-seo_description: Fiore Fraguelli en Simon Uytterhoeven op Technovate 2024: over de revolutie van AI, menselijkheid in technologie en praktische GenAI-toepassingen.
 seo_keywords: Technovate 2024, AI, GenAI, digitale transformatie, Cronos AI, 9Yards, innovatie
 -->

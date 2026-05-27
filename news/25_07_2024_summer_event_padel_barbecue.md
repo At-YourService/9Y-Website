@@ -18,7 +18,7 @@ Here's to many more courts, more grills, and more memories ahead.
 
 ---
 
-*Curious about life at 9Yards? [Get in touch](https://9yards.be/#contact) — we'd love to hear from you.*
+*Curious about life at 9Yards? [Get in touch](https://www.9yards.be/#contact) — we'd love to hear from you.*
 
 <!--
 seo_title: Summer Event: Padel & Barbecue — 9Yards

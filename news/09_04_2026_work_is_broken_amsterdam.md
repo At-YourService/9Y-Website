@@ -18,7 +18,7 @@ Een aantal inzichten die zijn blijven hangen:
 
 ---
 
-*Geïnteresseerd? [Neem contact op](https://9yards.be/#contact) — we horen graag van je.*
+*Geïnteresseerd? [Neem contact op](https://www.9yards.be/#contact) — we horen graag van je.*
 
 <!--
 seo_title: Work Is Broken Amsterdam — 9Yards & DevRev

@@ -26,7 +26,7 @@ Een AI-strategie definieert de doelstellingen en concrete acties die nodig zijn 
 
 ---
 
-*Wil je meer weten? [Contacteer ons](https://9yards.be/#contact) — we horen graag van je.*
+*Wil je meer weten? [Contacteer ons](https://www.9yards.be/#contact) — we horen graag van je.*
 
 <!--
 seo_title: AI-strategie en roadmap bouwen — 9Yards
