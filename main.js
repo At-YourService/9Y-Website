@@ -169,8 +169,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize News/Blog Loader
     new ContentLoader({
-        type: 'articles',
-        baseDir: 'articles',
+        type: 'news',
+        baseDir: 'news',
         paramName: 'article',
         containerId: 'blog-list',
         listSectionId: 'blog-list-section',
