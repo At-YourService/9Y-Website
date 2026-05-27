@@ -21,7 +21,7 @@ jobs:
           server: ftp.cluster100.hosting.ovh.net
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps          # encrypted (recommended for OVH)
+          protocol: ftp           # OVH cluster100 does not support FTPS explicit
           port: 21
           server-dir: /home/qkpwfgv/9yards/
           local-dir: ./
