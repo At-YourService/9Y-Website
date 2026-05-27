@@ -205,6 +205,61 @@ document.addEventListener('DOMContentLoaded', () => {
         `
     });
 
+    // Contact Form — AJAX submission to scripts/sendmail.php
+    const contactForm = document.getElementById('contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const privacyCheckbox = document.getElementById('privacy-consent');
+            const feedback        = document.getElementById('form-feedback');
+            const submitBtn       = document.getElementById('form-submit');
+            const successBox      = document.getElementById('form-success');
+
+            // Privacy check
+            if (!privacyCheckbox.checked) {
+                feedback.textContent = 'Gelieve het privacybeleid te accepteren voor u het formulier indient.';
+                feedback.className   = 'text-sm font-medium text-red-500';
+                feedback.classList.remove('hidden');
+                return;
+            }
+
+            // Disable button while sending
+            submitBtn.disabled    = true;
+            submitBtn.textContent = 'Sending…';
+            feedback.classList.add('hidden');
+
+            try {
+                const response = await fetch('scripts/sendmail.php', {
+                    method:  'POST',
+                    headers: {
+                        'X-Requested-With': 'XMLHttpRequest',
+                    },
+                    body: new FormData(contactForm),
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    contactForm.classList.add('hidden');
+                    if (successBox) successBox.classList.remove('hidden');
+                } else {
+                    feedback.textContent = data.message || 'Something went wrong. Please try again.';
+                    feedback.className   = 'text-sm font-medium text-red-500';
+                    feedback.classList.remove('hidden');
+                    submitBtn.disabled    = false;
+                    submitBtn.textContent = 'Send Message';
+                }
+            } catch (err) {
+                feedback.textContent = 'Could not reach the server. Please try again later.';
+                feedback.className   = 'text-sm font-medium text-red-500';
+                feedback.classList.remove('hidden');
+                submitBtn.disabled    = false;
+                submitBtn.textContent = 'Send Message';
+            }
+        });
+    }
+
     // Initialize Jobs Loader
     new ContentLoader({
         type: 'jobs',
