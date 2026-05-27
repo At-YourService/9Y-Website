@@ -1,20 +1,5 @@
 [
-    {
-        "id": "23_02_2026_senior_architect",
-        "title": "Senior Solutions Architect",
-        "date": "2026-02-23",
-        "category": "Architecture",
-        "excerpt": "Are you a visionary architect who thrives on bridging the gap between digital strategy and organizational reality? Join 9Yards as a Senior Solutions Architect.",
-        "file": "23_02_2026_senior_architect.md"
-    },
-    {
-        "id": "20_02_2026_ai_engineer",
-        "title": "AI Execution Engineer",
-        "date": "2026-02-20",
-        "category": "AI & Data",
-        "excerpt": "Do you believe in turning AI vision into real-world execution? We're looking for an AI Execution Engineer to help our clients build value-driving AI solutions.",
-        "file": "20_02_2026_ai_engineer.md"
-    },
+  
     {
         "id": "18_02_2026_business_analyst",
         "title": "Business Architect",
