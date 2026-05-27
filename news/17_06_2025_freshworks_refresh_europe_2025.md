@@ -1,16 +1,10 @@
----
-title: Freshworks Refresh Europe 2025
-category: AI & Data
-excerpt: Op het Refresh 2025-event in het Emirates Stadium kregen we een helder beeld van waar Freshworks naartoe wil — en hoe agentic AI de service management-wereld fundamenteel verandert.
----
-
 # Freshworks Refresh Europe 2025
 
-![Het 9Yards-team aan het Emirates Stadium](news/images/freshworks_refresh_2025_team.jpg)
+![Het 9Yards-team aan het Emirates Stadium](images/freshworks_refresh_2025_team.jpg)
 
 Afgelopen woensdag 11 juni hadden we het genoegen om live deel te nemen aan het Refresh 2025-event van Freshworks. In het indrukwekkende Emirates Stadium werden we verwelkomd en ondergedompeld in de nieuwste ontwikkelingen, ambities en toekomstvisie van Freshworks.
 
-![Freshworks Refresh Europe 2025 — zaal](news/images/freshworks_refresh_2025_event.jpg)
+![Freshworks Refresh Europe 2025 — zaal](images/freshworks_refresh_2025_event.jpg)
 
 ## Freddy evolueert naar Agentic AI
 

@@ -42,7 +42,7 @@ Both `/news/manifest.json` and `/jobs/manifest.json` follow this structure:
 - Prepend new entries at the top of the array (newest first)
 - `id` and `file` share the same slug — only `file` has the `.md` extension
 - `date` is ISO format (`YYYY-MM-DD`), `id`/`file` use `DD_MM_YYYY`
-- `excerpt` must match the frontmatter `excerpt` field exactly
+- `excerpt` must match the manifest `excerpt` field exactly
 
 ---
 
@@ -63,27 +63,10 @@ Both `/news/manifest.json` and `/jobs/manifest.json` follow this structure:
 
 ---
 
-### Frontmatter format
-
-```yaml
----
-title: <Post title, sentence case>
-category: <Single category — match an existing one from manifest.json if possible>
-excerpt: <One or two sentences, enticing and punchy>
----
-```
-
-**Rules:**
-- `title`: Sentence case, no trailing period, max ~10 words
-- `category`: Reuse an existing category (e.g. `Transformation`, `AI & Data`, `Methodology`). If none fit, propose one and confirm with the user.
-- `excerpt`: Max 2 sentences. Should make the reader want to click. Must match the manifest entry exactly.
-
----
-
 ### Post body format
 
 ```markdown
-# <Same as frontmatter title>
+# <Post title>
 
 <Opening paragraph — 2-3 sentences, sets context>
 

@@ -149,7 +149,8 @@ document.addEventListener('DOMContentLoaded', () => {
         async loadItem(item) {
             try {
                 const response = await fetch(`${this.config.baseDir}/${item.file}`);
-                const markdown = await response.text();
+                const raw = await response.text();
+                const markdown = raw.replace(/^---[\s\S]*?---\s*\n/, '');
                 this.contentBody.innerHTML = marked.parse(markdown);
 
                 if (this.listSection) this.listSection.classList.add('hidden');
