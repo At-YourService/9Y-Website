@@ -23,7 +23,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp           # OVH cluster100 does not support FTPS explicit
           port: 21
-          server-dir: /home/qkpwfgv/9yards/
+          server-dir: 9yards/
           local-dir: ./
           exclude: |
             **/.git*
