@@ -238,7 +238,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     body: new FormData(contactForm),
                 });
 
-                const data = await response.json();
+                // Parse JSON safely — log raw text if it fails
+                let data;
+                try {
+                    data = await response.json();
+                } catch (parseErr) {
+                    const raw = await response.clone().text().catch(() => '(unreadable)');
+                    console.error('sendmail.php returned non-JSON (HTTP ' + response.status + '):', raw);
+                    throw new Error('Invalid server response');
+                }
 
                 if (data.success) {
                     contactForm.classList.add('hidden');
@@ -251,6 +259,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     submitBtn.textContent = 'Send Message';
                 }
             } catch (err) {
+                console.error('Contact form error:', err);
                 feedback.textContent = 'Could not reach the server. Please try again later.';
                 feedback.className   = 'text-sm font-medium text-red-500';
                 feedback.classList.remove('hidden');

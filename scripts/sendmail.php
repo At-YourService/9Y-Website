@@ -1,4 +1,11 @@
 <?php
+// Suppress PHP notices/warnings so they never pollute the JSON response
+error_reporting(0);
+ini_set('display_errors', '0');
+
+// Always respond as JSON
+header('Content-Type: application/json; charset=utf-8');
+
 /**
  * Contact form handler — DevRev API
  *
@@ -85,10 +92,16 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 
 // ── Origin check ───────────────────────────────────────────────────────────
 // Block requests that carry an Origin header from a different host.
-// Legitimate browser submissions from at-yourservice.ai will always pass.
-$origin       = $_SERVER['HTTP_ORIGIN'] ?? '';
-$allowed_host = 'at-yourservice.ai';
-if ($origin !== '' && strpos($origin, $allowed_host) === false) {
+$origin          = $_SERVER['HTTP_ORIGIN'] ?? '';
+$allowed_hosts   = ['9yards.be', 'localhost', '127.0.0.1'];
+$origin_allowed  = $origin === '';  // no Origin header = same-origin or non-browser, allow
+foreach ($allowed_hosts as $host) {
+    if (strpos($origin, $host) !== false) {
+        $origin_allowed = true;
+        break;
+    }
+}
+if (!$origin_allowed) {
     log_msg('blocked: bad origin "' . $origin . '"');
     http_response_code(403);
     exit(json_encode(['success' => false, 'message' => 'Forbidden.']));
