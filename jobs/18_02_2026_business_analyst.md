@@ -1,6 +1,6 @@
 # Business Analyst
 
-![Business Analyst](jobs/images/ai_business_analyst.jpg)
+![Business Analyst](jobs/images/business_analyst.jpg)
 
 At 9Yards, we design business and digital solutions that last. As a Business Analyst, you are the bridge between the business and IT — translating stakeholder needs into clear, actionable specifications that drive real transformation.
 
