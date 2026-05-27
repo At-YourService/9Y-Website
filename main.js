@@ -180,6 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
         renderItem: (article) => `
             <div class="flex flex-col group cursor-pointer" onclick="location.search = '?article=${article.id}'">
                 <div class="aspect-video bg-slate-100 rounded-3xl mb-6 overflow-hidden relative">
+                    ${article.image ? `<img src="${article.image}" alt="${article.title}" class="w-full h-full object-cover">` : ''}
                     <div class="absolute inset-0 bg-brand-blue/5 group-hover:bg-transparent transition-colors"></div>
                     <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider">
                         ${article.category}
