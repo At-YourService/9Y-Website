@@ -25,6 +25,8 @@ jobs:
           port: 21
           server-dir: 9yards/
           local-dir: ./
+          log-level: verbose      # shows exact remote paths — check Actions log to verify landing dir
+          state-name: ../.ftp-deploy-sync-state.json   # keep state outside upload dir to avoid stale-cache skips
           exclude: |
             **/.git*
             **/.git*/**
