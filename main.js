@@ -45,7 +45,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
 
-    // Email obfuscation
+    // Email obfuscation (data-u / data-d pattern)
+    document.querySelectorAll('a[data-u][data-d]').forEach(el => {
+        el.textContent = el.dataset.u + '@' + el.dataset.d;
+    });
+
+    // Email obfuscation (data-email-user / data-email-domain pattern)
     const emailElements = document.querySelectorAll('[data-email-user]');
     emailElements.forEach(el => {
         const user = el.getAttribute('data-email-user');
