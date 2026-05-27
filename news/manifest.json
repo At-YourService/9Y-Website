@@ -1,19 +1,22 @@
 [
-    {
-        "id": "25_07_2024_summer_event_padel_barbecue",
-        "title": "Summer Event: Padel & Barbecue",
-        "date": "2024-07-25",
-        "category": "Culture",
-        "excerpt": "Last Tuesday the Konato family hit the padel courts and the barbecue grill at Antwerp's Meadow Club — Belgian weather and all.",
-        "file": "25_07_2024_summer_event_padel_barbecue.md"
-    },
+    
     {
         "id": "17_06_2025_freshworks_refresh_europe_2025",
         "title": "Freshworks Refresh Europe 2025",
         "date": "2025-06-17",
         "category": "AI & Data",
         "excerpt": "Op het Refresh 2025-event in het Emirates Stadium kregen we een helder beeld van waar Freshworks naartoe wil — en hoe agentic AI de service management-wereld fundamenteel verandert.",
-        "image": "images/freshworks_refresh_2025_team.jpg",
+        "image": "/news/images/freshworks_refresh_2025_team.jpg",
         "file": "17_06_2025_freshworks_refresh_europe_2025.md"
+    },
+	{
+        "id": "25_07_2024_summer_event_padel_barbecue",
+        "title": "Summer Event: Padel & Barbecue",
+        "date": "2024-07-25",
+        "category": "Fun",
+        "excerpt": "Last Tuesday the Konato family hit the padel courts and the barbecue grill at Antwerp's Meadow Club — Belgian weather and all.",
+		"image": "/news/images/news_01.jpg",
+        "file": "25_07_2024_summer_event_padel_barbecue.md"
     }
+	
 ]
