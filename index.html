@@ -448,7 +448,15 @@
                         <textarea rows="4"
                             class="w-full px-6 py-4 rounded-2xl border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-brand-blue transition-all outline-none"></textarea>
                     </div>
-                    <button type="submit"
+                    <div>
+                        <label class="flex items-start space-x-3 cursor-pointer">
+                            <input type="checkbox" id="privacy-consent"
+                                class="mt-1 w-4 h-4 rounded accent-brand-blue flex-shrink-0 cursor-pointer">
+                            <span class="text-sm text-brand-coal/70">Ik ga akkoord met het <a href="privacy.html" target="_blank" class="text-brand-blue underline hover:text-brand-deep">privacybeleid</a></span>
+                        </label>
+                        <p id="privacy-error" class="hidden mt-2 text-sm text-red-500">Gelieve het privacybeleid te accepteren voor u het formulier indient.</p>
+                    </div>
+                    <button type="submit" onclick="if(!document.getElementById('privacy-consent').checked){event.preventDefault();document.getElementById('privacy-error').classList.remove('hidden');}else{document.getElementById('privacy-error').classList.add('hidden');}"
                         class="w-full bg-brand-blue text-white font-bold py-5 rounded-full hover:bg-brand-deep transition-all shadow-lg">Send
                         Message</button>
                 </form>
