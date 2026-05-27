@@ -185,7 +185,7 @@ seo_keywords: AI adoption, enterprise AI, digital transformation, 9Yards, Belgiu
 ---
 title: <Job title>
 excerpt: <One or two punchy sentences. Lead with impact — what will this person build or achieve?>
-image: images/<slug>.jpg
+image: jobs/images/<slug>.jpg
 ---
 ```
 
@@ -301,7 +301,7 @@ claude "add a new vacancy: Change Manager, focus on digital transformation progr
 ---
 title: Data Architect
 excerpt: Design the data foundations that power intelligent organisations. Join 9Yards and shape the way our clients turn data into decisions.
-image: images/data_architect.jpg
+image: jobs/images/data_architect.jpg
 ---
 
 # Data Architect

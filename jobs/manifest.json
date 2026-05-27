@@ -1,5 +1,13 @@
 [
-  
+    {
+        "id": "27_05_2026_ai_business_architect",
+        "title": "AI Business Architect",
+        "date": "2026-05-27",
+        "category": "Architecture",
+        "excerpt": "Shape enterprise AI strategy and design AI-enabled business models at the intersection of technology and transformation.",
+        "image": "jobs/images/ai_business_architect.jpg",
+        "file": "27_05_2026_ai_business_architect.md"
+    },
     {
         "id": "18_02_2026_business_analyst",
         "title": "Business Analist",
